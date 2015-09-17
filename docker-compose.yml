@@ -1,0 +1,8 @@
+lslock:
+  build: lslock
+  volumes:
+    - /proc/locks:/go/locks:ro
+    - /tmp:/tmp
+
+lslock-test:
+  build: lslock-test

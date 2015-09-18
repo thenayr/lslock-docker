@@ -6,3 +6,6 @@ lslock:
 
 lslock-test:
   build: lslock-test
+  volumes:
+    - /proc/locks:/go/locks:ro
+    - /tmp:/tmp

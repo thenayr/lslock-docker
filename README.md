@@ -1,7 +1,7 @@
 Description
 ---
 
-lslock is golang utility to 
+lslock is golang utility to lock files and lslock-test is a golang utility to find the locked files and PID's
 
 Run it
 ---

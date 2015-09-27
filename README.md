@@ -4,15 +4,18 @@ lslock is golang utility to list the PID and path of a locked file inside of a d
 
 Run it
 ---
-## lslock
+### lslock
 Run lslock container to have it output the PID and path of locked files in the specified directory (/tmp/lslock-test by default)
+
 ```docker-compose up lslock```
 
 Pass in a custom path to lslock
+
 ```docker-compose run lslock -d /path/to/search```
 
-## lslock-test
+### lslock-test
 lslock-test will simply create 10 random locks in /tmp/lslock-test and wait forever. It doesn't take any arguments.
+
 ```docker-compose up lslock-test```
 
 Notes

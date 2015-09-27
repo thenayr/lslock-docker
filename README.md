@@ -27,4 +27,5 @@ Notes
 
 TODO
 ---
-Add more CLI flags for 
+* Add more CLI flags for determining the number of files to lock, etc.
+* Write better golang

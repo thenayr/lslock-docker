@@ -1,6 +1,6 @@
 Description
 ---
-lslock is golang utility to list the PID and path of a locked file inside of a directory. lslock-test is a helper utility that creates random locked files inside of the directory '/tmp/lslock-test'
+lslock is a golang utility to list the PID and path of a locked file inside of a directory. lslock-test is a helper utility that creates random locked files inside of the directory '/tmp/lslock-test'
 
 Run it
 ---
@@ -23,6 +23,7 @@ Notes
 * Because we are locking files using Docker, PID is always going to report "01", if you run outside of Docker, this shouldn't be the case ;)
 * /proc/locks is mounted inside of both our app containers at "/go/locks", /tmp is also mounted directly to /tmp
 * I'm sure there are many other nuances to running the flock system call from inside of a container...
+* This is my first project written in golang
 
 TODO
 ---

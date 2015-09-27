@@ -28,4 +28,5 @@ Notes
 TODO
 ---
 * Add more CLI flags for determining the number of files to lock, etc.
+* Allow for recursive directory searching
 * Write better golang
